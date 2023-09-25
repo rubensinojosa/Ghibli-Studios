@@ -1,0 +1,40 @@
+.watch {
+    display: inline-block;
+    position: relative;
+    padding: 8px 40px;
+    -webkit-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+    -webkit-transition: .7s ease;
+    transition: all .4s ease;
+
+    background: transparent;
+    color: var(--white);
+    border: 2px solid var(--green);
+    
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+}
+
+.watch.now {
+    background: var(--green);
+}
+
+.watch:hover {
+    background: var(--green);
+}
+
+.watch.now:hover {
+    border: 2px solid var(--white);
+}
+
+span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    -webkit-transform: skewX(15deg);
+    transform: skewX(15deg);
+
+}
